@@ -1,0 +1,57 @@
+<!DOCTYPE html><!-- telling the file reader the type of document -->
+<!-- create an HTML document, and within the body of the page, create two lists -->
+<!-- best HTML, CSS, PHP reference page I know: W3Schools - https://www.w3schools.com/cssref/ -->
+<html><!-- beginning of document -->
+<head><!-- beginning of head -->
+  <meta charset="utf-8"><!-- character set -->
+  <meta name="viewport" content="width=device-width">
+  <title>My Favourite Recipe</title><!-- title of the page -->
+  <style>
+	p.fonts {font-size: 18px;}
+	li.fonts {font-size: 20px;}
+	.quarterwidth {width: 25%;}
+	body {background-color: #FFCC99;}
+	.h {padding-bottom: 30px}
+	.mainh {font-weight: bold; text-decoration: underline;}
+	li a {text-decoration:none; color:black; border: 1px solid black; border-radius: 5px; background-color: #CCCCCC;}
+	.listclass {background-color: #DDCCBB; width: 50%;}
+	ul li {list-style-image: url('egg.png');}
+	ol li {list-style-type: upper-roman;}
+	p span {font-style: italic;}
+	p span:last-of-type {text-decoration: underline;}
+	.special {font-style: normal; color: red;}
+  </style><!-- styling -->
+</head><!-- end of head -->
+<body><!-- start of body -->
+  <h1 class="h mainh">Scrambled eggs</h1><!-- title -->
+  <p class="fonts">This is my <span class="special">favourite</span> food I've been making since I was a <span>child</span>. <span>Simple</span> yet <span>delicious</span>, and doesn't take too much <span>time</span>.</p><!-- just a paragraph -->
+  <img class="quarterwidth" src="https://thecookful.com/wp-content/uploads/2019/04/Hard-Scrambled-Eggs-1392x780.jpg" alt="scrambled eggs">
+  <h3 class="h">Ingredients</h3><!-- sub-title -->
+  <!-- The first list should be an unordered list of all the ingredients needed to make the dish. -->
+  <ul class="listclass"><!-- beginning of unordered list -->
+    <li class="fonts">egg</li><!-- list element -->
+    <li class="fonts">oil</li><!-- list element -->
+    <li class="fonts">salt</li><!-- list element -->
+    <li class="fonts">more eggs</li><!-- list element -->
+  </ul><!-- end of unordered list -->
+  <img class="quarterwidth" src="https://www.seriouseats.com/recipes/images/2015/05/20150511-scrambled-eggs-vicky-wasik-17-750x563.jpg" alt="another scrambled eggs">
+  <h3 class="h">Steps</h3><!-- another sub-title -->
+  <!-- The second list should be an ordered list, detailing the steps you need to take to prepare that dish. -->
+  <ol class="listclass"><!-- beginning of ordered list -->
+    <li class="fonts">put some oil in a pan on the stove 🛢</li><!-- list element -->
+    <li class="fonts">when it sounds hot enough, crack an egg into it 🍳</li><!-- list element -->
+    <li class="fonts">if it sizzles, crack all the eggs You'd like to into it 🥚🥚🥚</li><!-- list element -->
+    <li class="fonts">keep stirring it until the expected softness is reached 🥣</li><!-- list element -->
+    <li class="fonts">put it on a plate 🍽</li><!-- list element -->
+    <li class="fonts">salt if needed 🧂</li><!-- list element -->
+  </ol><!-- end of ordered list -->
+  <h3 class="h">Some other versions of this recipe from the internet:</h3>
+  <ul class="listclass">
+	<li class="fonts"><a href="https://www.bbcgoodfood.com/recipes/perfect-scrambled-eggs-recipe">You can learn the English way here at BBCGoodFood.com</a></li>
+	<li class="fonts"><a href="https://toriavey.com/how-to/how-to-make-scrambled-eggs/">Fluffy and moist on ToriAvey.com</a></li>
+	<li class="fonts"><a href="https://www.eggs.ca/recipes/simple-scrambled-eggs">The best place for eggs, Eggs.ca</a></li>
+	<li class="fonts"><a href="https://bellyfull.net/the-best-scrambled-eggs/">Claiming to be the "Absolute Best", BellyFull.net</a></li>
+	<li class="fonts"><a href="https://www.recipetineats.com/scrambled-eggs/">Simple scrambled eggs by RecipeTinEats.com</a></li>
+  </ul>
+</body><!-- end of body -->
+</html><!-- end of document -->
